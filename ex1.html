@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function exam(i){
+        if (i >= 90){
+          document.write('수<br>');
+        } else if (i >= 80){
+          document.write('우<br>');
+        } else if (i >= 70) {
+          document.write('미<br>');
+        } else if (i >= 60) {
+          document.write('양<br>');
+        } else {
+          document.write('가<br>');
+        }
+      }
+      var number = [34,25,66,98,45,78];
+      var j = 0;
+      while (j < number.length) {
+        exam(number[j]);
+        j = j + 1;
+      }
+    </script>
+  </body>
+</html>
